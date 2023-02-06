@@ -1,0 +1,180 @@
+/*topo*/
+body{
+    background-color:rgb(242, 243, 243);
+}
+header {
+	text-align: center;
+	background: rgb(244,180,4);
+	padding: 5px 0;
+    font-family: 'Exo 2', sans-serif;
+}
+.logopreto{
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+.logobranco{
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 16px;
+    color: #ffffff;
+}
+.caixasuperior nav{
+	margin: 20px;
+	padding: 5px;
+	text-align: center;
+}
+nav {
+    margin: 1em;
+	padding: 20px 20px;
+	top: 110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 15px 0 15px;
+}
+nav a {
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: rgb(244,180,4);
+	text-decoration: none;
+    padding: 10px;
+    background-color: rgb(252, 252, 250);
+}
+ /*Card*/   
+.corpo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 924px;
+}
+.container{
+    flex-wrap: wrap;
+    width:1060px;
+    padding:10px;
+    display:flex;
+}
+.child{
+    max-width: 645px;
+    background-color: rgb(255, 254, 254);
+	margin-top: 1em;
+	padding:15px;
+}
+.child2{
+    height: 70%;
+    width: 300px;
+    background-color: rgb(255, 254, 254);
+    margin: 1em;
+    padding:15px;
+}
+.child3{
+    height: 70%;
+    width: 300px;
+    background-color: rgb(255, 254, 254);
+    margin: 1em;
+    padding:15px;
+    margin-top: -205px;
+}
+.subtitulocard {
+    font-family: 'Exo 2', sans-serif;
+	margin: 3px 1px 1px 1px;
+	padding: 5px;
+	background: #cacece;
+	color:rgb(83, 85, 85);
+}
+.titulocard {
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 3px 0 0 0; 
+	padding-bottom: 2px;
+	color:rgb(244,180,4)
+}
+.postagem{
+    font-family: 'Exo 2', sans-serif;
+	font-size: 15px;
+	margin-left: 5px 2px 0 15px;
+    padding: 0 0 1em 0;
+}
+.margim{
+    padding: 1px 0 5px;
+    font-family: 'Exo 2', sans-serif;
+}
+.list, .leia{
+    font-family: 'Exo 2', sans-serif;
+	background: #ffffff;
+	color:rgb(244,180,4);
+	padding: 1px;
+	list-style: none;
+    text-decoration: none;
+}
+.traco{
+	border: 1px dashed #000;
+    color:rgb(145, 148, 148);
+}
+.imagem{
+    max-width: 645px;
+}
+.foot{
+    font-family: 'Exo 2', sans-serif;
+    margin: 1em 0;
+    width:1005px;
+	height: 20px;
+	Background: #cacece;
+	text-align: center;
+	padding: 10px;
+}
+/*media query*/
+@media (min-width:440px) and (max-width: 900px){
+    .container{
+        flex-direction: column;
+    }
+    .logopreto{
+        font-size: 70px;
+        font-weight: bold;
+        padding-top: 10px;
+        font-family: 'Exo 2', sans-serif;
+    }
+    .logobranco{
+        font-size: 70px;
+        font-weight: bold;
+        padding-top: 13px;
+        color: #ffffff;
+    }
+      nav a {
+        color: #ffffff;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    nav a:hover {
+        color: rgb(244,180,4);
+        text-decoration: none;
+        padding: 8px;
+        background-color: rgb(252, 252, 250);
+    }
+    .child2, .child3 {
+        width: 645px;
+        background-color: rgb(255, 254, 254);
+        padding:15px;
+        margin-left: -2px;
+    }
+    .child2 {
+        margin-top: 30px;
+    }
+    .child3 {
+        margin-top: 30px;
+    }
+    .foot{
+        font-family: 'Exo 2', sans-serif;
+        margin: 1em 0;
+        width:653px;
+        height: 20px;
+        Background: #cacece;
+        text-align: center;
+        padding: 10px;
+    }
+}
